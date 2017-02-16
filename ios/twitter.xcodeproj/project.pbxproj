@@ -34,7 +34,6 @@
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* twitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* twitterTests.m */; };
-		3BD3A6151E5502A8007A0CEC /* TwitterModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3A6141E5502A8007A0CEC /* TwitterModule.m */; };
 		3BD3A6181E5508C6007A0CEC /* TwitterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3A6171E5508C6007A0CEC /* TwitterManager.swift */; };
 		3BD3A61B1E550974007A0CEC /* TwitterMangerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3A61A1E550974007A0CEC /* TwitterMangerBridge.m */; };
 		3BD3A6301E5618D0007A0CEC /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD3A6291E5618BB007A0CEC /* SwifteriOS.framework */; };
@@ -294,7 +293,6 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* twitter-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "twitter-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* twitter-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "twitter-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BD3A6141E5502A8007A0CEC /* TwitterModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterModule.m; path = twitter/TwitterModule.m; sourceTree = "<group>"; };
 		3BD3A6171E5508C6007A0CEC /* TwitterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitterManager.swift; path = twitter/TwitterManager.swift; sourceTree = "<group>"; };
 		3BD3A61A1E550974007A0CEC /* TwitterMangerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterMangerBridge.m; path = twitter/TwitterMangerBridge.m; sourceTree = "<group>"; };
 		3BD3A61C1E550988007A0CEC /* twitter-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "twitter-Bridging-Header.h"; path = "twitter/twitter-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -452,7 +450,6 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				3BD3A61C1E550988007A0CEC /* twitter-Bridging-Header.h */,
-				3BD3A6141E5502A8007A0CEC /* TwitterModule.m */,
 				3BD3A6171E5508C6007A0CEC /* TwitterManager.swift */,
 				3BD3A61A1E550974007A0CEC /* TwitterMangerBridge.m */,
 			);
@@ -1044,7 +1041,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BD3A6151E5502A8007A0CEC /* TwitterModule.m in Sources */,
 				3BD3A6181E5508C6007A0CEC /* TwitterManager.swift in Sources */,
 				3BD3A61B1E550974007A0CEC /* TwitterMangerBridge.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
